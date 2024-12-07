@@ -1,0 +1,42 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-start;
+    max-height: 380px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 8px;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+img.cross {
+    position: relative;
+    right: -50%;
+    top: 5px;
+    width: 12.5px !important;
+    height: 12.5px !important;
+}
+.product {
+    width: 136.37px;
+    text-align: center;
+}
+.product > div {
+    height: 26.78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0.5;
+}
+.product > div > span {
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+.product > div > p {
+    font-size: 0.6rem;
+}
+.product > img {
+    width: 136.37px;
+    height: 91.56px;
+    margin-bottom: -5px;
+}

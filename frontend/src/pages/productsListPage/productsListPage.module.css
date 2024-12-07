@@ -1,0 +1,119 @@
+.leftSide {
+    background-color: #f8f7f7;
+    width: 719px;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 38px 48px 38px;
+}
+.leftSide > div {
+    margin-top: 32px;
+}
+.leftSide span {
+    font-size: 23px;
+    font-weight: bold;
+}
+.leftSide > button {
+    width: 147px;
+    height: 48px;
+    background-color: #4B5548;
+    color: #FFFF;
+    border: none !important;
+    font-size: 12px;
+    margin-top: 37px;
+}
+.pageWrapper {
+    display: flex;
+    flex-direction: row;
+}
+.korzina {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 35px;
+    right: 92px;
+}
+.goBack {
+    font-weight: bold;
+    height: 15px;
+    width: 87px;
+    position: absolute;
+    top: 88px;
+    right: 72px;
+}
+.verticalLine {
+    width: 1px;
+    height: 30px;
+    background-color: #E7F0F2;
+    position: absolute;
+    top: 88px;
+    right: 56px;
+}
+.rightSideContent {
+    position: relative;
+    left: 72px;
+    top: 110px;
+}
+.LoremText1 {
+    width: 346px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.LoremText {
+    width: 346px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    white-space: nowrap;
+    gap: 8px;
+    text-overflow: ellipsis;
+}
+.LoremText img {
+    flex-shrink: 0;
+    height: auto;
+}
+
+.productParams > p, b {
+    font-size: 10px;
+}
+.productParams b {
+    text-decoration: line-through;
+}
+.productParams{
+    line-height: 5px;
+    margin-top: 22px;
+    margin-bottom: 18px;
+}
+.topContentRightSide {
+    margin-top: 32px;
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topContentRightSide span {
+    font-size: 12px;
+}
+.topContentRightSide > div > img {
+    position: absolute;
+    right: 9px;
+}
+.topContentRightSide > div {
+    display: flex;
+    align-items: center;
+}
+.cancel {
+    position: absolute;
+    right: 70px;
+    bottom: 24px;
+    background-color: inherit;
+    border: none;
+    color: #52565F;
+    font-size: 13px;
+    font-weight: bold;
+}
+.addButton {
+    position: absolute;
+    bottom: 40px
+}
